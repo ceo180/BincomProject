@@ -8,40 +8,25 @@ body{
     color: dimgrey;
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    /* justify-content: center;  */
-    /* flex-flow: row nowrap; */
     margin: 0 auto;
-    /* padding: 1em; */
-    /* width: 90%; */
 }
 
 
  #flex{ 
     display: flex; 
-    /* flex-flow: row nowrap; */
-    /* width: 41%; */
-    border: 1px black solid;
-    /* padding: 10px; */
     margin: 2px;
-    /* align-items: stretch; */
     justify-content: center;
 } 
 
 .first{
     border: 3px gray solid; 
-    /* padding: 10px; */
-    /* margin: 2px; */
     align-items: stretch; 
 } 
 
 #left{
     width: 200px;
-    /* margin-top: 0%; */
     background-color:#003D73 ;
     text-align: center;
-    /* flex-basis: max-content;     */
-    /* align-items: stretch; */
 }
 
 #right{
@@ -70,11 +55,6 @@ img{
     padding: 10px;
 }
 
-.exp{
-    /* background-image: url("/Bincom/Screenshot_20240709-130558.png") ;
-    color: white; */
-}
-
 h2{
     color: #003D73;
     border-top: 1px solid gray;
@@ -85,45 +65,36 @@ h2{
 h3{
     padding-left: 20px;
     font-weight: bold;
-    /* border: 1px solid red; */
     margin-bottom: 0%;
 }
 
 .table{
     display: flex;
-    /* border: 1px red solid; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 .year{
-    /* border: 1px solid red; */
     padding: 10px;
     margin-top: 5%;
 }
 .down{
     display: flex;
-    /* flex-flow: row nowrap; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* border: 1px solid green; */
     justify-content: space-evenly;
 }
 
 cite{
-    /* border: solid red 1px; */
     padding-left: 1%;
     font-size: smaller;
 }
 ul{
-    /* border: 1px solid red; */
     margin: 0%;
 }
 .row1{
-    /* border: 1px solid purple; */
     width: 90px;
 }
 .row2{
-    /* border: 1px solid orange; */
     margin-left: 10px;
     padding: 10px;
     
